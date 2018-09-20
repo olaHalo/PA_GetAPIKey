@@ -9,7 +9,7 @@ import datetime
 ip_address = raw_input('Enter the IP address:   ') or "x.x.x.x"
 username = raw_input('Enter a username:   ') or "username"
 password = raw_input('Enter the password:   ') or "password"
-filePath = os.path.join('C:/Users/mwedlow/Downloads', 'log.txt')
+filePath = os.path.join('C:', 'log.txt')
 
 str =  "*****Script started*****"
 
